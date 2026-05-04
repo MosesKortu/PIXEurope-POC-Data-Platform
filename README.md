@@ -56,6 +56,14 @@ Sub-second queries even at scale, powered by **Non-Clustered Covering Indexes** 
 - **Mermaid.js** — Live ER diagrams
   
 ---
+### Use Cases
+
+- Service operations management
+- Equipment lifecycle tracking
+- Partner & company coordination
+- Compliance and audit reporting
+
+----
 
 ## Database ERD
 
@@ -70,5 +78,4 @@ erDiagram
     
     AUDIT-LOG ||--o{ COMPLIANCE-LOCKBOX : stored_in ```
 
-  ## Quick Start
-1. Clone the Repository
+
