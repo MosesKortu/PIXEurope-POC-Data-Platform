@@ -14,7 +14,7 @@
 
 ---
 
-## 🏛️ Architecture Overview
+## Architecture Overview
 
 A **Four-Tier Relational Schema** meticulously designed for maximum security, scalability, and EU research compliance.
 
@@ -27,7 +27,7 @@ A **Four-Tier Relational Schema** meticulously designed for maximum security, sc
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Automated Audit Traceability
 Every critical change (equipment, procurement, configuration) is captured through **JSON-based Triggers**, storing complete "Before" and "After" states. 100% audit-ready for Chips JU reviews.
@@ -53,16 +53,13 @@ Sub-second queries even at scale, powered by **Non-Clustered Covering Indexes** 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-**Additional Tools**
-- **Mermaid.js** — Live ER diagrams
-- **Looker Studio** — Advanced analytics dashboards
-- **Azure / AWS** — Cloud-native migration ready
 
 </div>
-
+**Additional Tools**
+- **Mermaid.js** — Live ER diagrams
 ---
 
-## 📊 Database ERD
+## Database ERD
 
 ```mermaid
 erDiagram
