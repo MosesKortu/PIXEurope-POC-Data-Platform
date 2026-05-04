@@ -48,7 +48,7 @@ Sub-second queries even at scale, powered by **Non-Clustered Covering Indexes** 
 <div align="center">
 
 ![T-SQL](https://img.shields.io/badge/SQL%20Server-T--SQL-00AEEF?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
@@ -67,5 +67,8 @@ erDiagram
     COMPANIES ||--o{ SERVICE-REQUESTS : applies
     SERVICE-REQUESTS ||--o{ SERVICE-CATALOG : references
     EQUIPMENT }|--|| AUDIT-LOG : generates
+    
+    AUDIT-LOG ||--o{ COMPLIANCE-LOCKBOX : stored_in ```
 
-    AUDIT-LOG ||--o{ COMPLIANCE-LOCKBOX : stored_in
+  ## Quick Start
+1. Clone the Repository
