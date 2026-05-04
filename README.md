@@ -35,6 +35,13 @@ Every critical change (equipment, procurement, configuration) is captured throug
 ###  High-Performance Search
 Sub-second queries even at scale, powered by **Non-Clustered Covering Indexes** on high-traffic columns (`PartnerID`, `EquipmentStatus`). Optimized for thousands of assets across 11 countries.
 
+
+### Backend Coordination (FastAPI)
+- The FastAPI (Python) layer acts as the "Gateway" logic controller:
+- Validates SME VAT numbers.
+- Coordinates cross-schema lookups (checking Core availability before confirming a Gateway request).
+- Ensures all API traffic is logged for compliance.
+
 ### ⚖️ GDPR & FAIR Compliance
 - **Findable** — Unique `AssetTag` identifiers
 - **Accessible** — Role-based access via Gateway schema
@@ -49,6 +56,8 @@ Sub-second queries even at scale, powered by **Non-Clustered Covering Indexes** 
 
 ![T-SQL](https://img.shields.io/badge/SQL%20Server-T--SQL-00AEEF?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 </div>
 
