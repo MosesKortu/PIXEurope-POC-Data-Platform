@@ -76,6 +76,6 @@ erDiagram
     SERVICE-REQUESTS ||--o{ SERVICE-CATALOG : references
     EQUIPMENT }|--|| AUDIT-LOG : generates
     
-    AUDIT-LOG ||--o{ COMPLIANCE-LOCKBOX : stored_in ```
+    AUDIT-LOG ||--o{ COMPLIANCE-LOCKBOX : stored_in
 
 
