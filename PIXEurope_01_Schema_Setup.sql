@@ -7,7 +7,7 @@
 -- ============================================================
 
 -- ============================================================
--- JARGON GLOSSARY (as SQL comments — study these)
+-- JARGON GLOSSARY
 -- ============================================================
 -- SCHEMA       : A logical container (namespace) grouping related tables.
 --                Like folders in a filing cabinet. We use: Core, Gateway, Compliance.
